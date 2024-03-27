@@ -1,0 +1,42 @@
+# Base example of .editorconfig usage
+root = true
+
+# apply rules to all files
+[*]
+insert_final_newline = true
+
+# rules for python
+[*.py]
+charset = utf-8
+indent_size = 4
+indent_style = space
+max_line_length = 80
+trim_trailing_whitespace = true
+
+# rules for lua
+[*.lua]
+charset = utf-8
+indent_size = 2
+indent_style = space
+max_line_length = 80
+trim_trailing_whitespace = true
+
+# rules for nix
+[*.nix]
+charset = utf-8
+indent_size = 2
+indent_style = space
+max_line_length = 80
+trim_trailing_whitespace = true
+
+# rules for rust
+[*.rs]
+charset = utf-8
+indent_size = 2
+indent_style = space
+max_line_length = 80
+trim_trailing_whitespace = true
+
+# rules for Makefiles
+[Makefile]
+indent_style = tab
